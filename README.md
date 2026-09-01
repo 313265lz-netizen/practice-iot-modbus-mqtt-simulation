@@ -78,7 +78,7 @@ python modbus_collector.py --write 0x0007 100    # 向本组寄存器写入数�
 | 备用 | 0x0008、0x0009 |
 
 程序只读写本组寄存器（第 8 组 = `0x0007`），写其它地址会被拒绝。
-若老师分配的地址不同，改 `config.py` 里的 `REGISTERS_PER_GROUP` 或 `group_register_range`。
+若地址不同，改 `config.py` 里的 `REGISTERS_PER_GROUP` 或 `group_register_range`。
 
 ---
 
