@@ -27,7 +27,7 @@ GROUP_ID = _env_int("GROUP_ID", 8)   # 第 8 组
 MQTT_BROKER = _env_str("MQTT_BROKER", "172.16.4.211")
 MQTT_PORT = _env_int("MQTT_PORT", 9783)
 MQTT_USERNAME = _env_str("MQTT_USERNAME", "test")
-MQTT_PASSWORD = _env_str("MQTT_PASSWORD", "123456")
+#MQTT_PASSWORD = _env_str("MQTT_PASSWORD", "填写自己的密码")
 MQTT_KEEPALIVE = _env_int("MQTT_KEEPALIVE", 60)
 MQTT_QOS = _env_int("MQTT_QOS", 1)
 
