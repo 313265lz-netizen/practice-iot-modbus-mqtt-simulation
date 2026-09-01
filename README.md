@@ -129,3 +129,10 @@ python modbus_slave_sim.py
 $env:MODBUS_HOST="127.0.0.1"
 python modbus_collector.py
 ```
+## Experiment Result
+
+MQTTX client subscribes topics and receives JSON payload:
+![MQTTX payload screenshot](./mqttx_payload.png)
+
+MQTT broker receives message log:
+![Broker log screenshot](./broker_log.png)
